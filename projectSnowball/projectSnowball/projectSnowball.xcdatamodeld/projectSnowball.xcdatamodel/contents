@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14F27" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <entity name="Company" representedClassName="Company" syncable="YES">
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="ManagedCompany" representedClassName="ManagedCompany" syncable="YES">
         <attribute name="avgEarningsPerShare" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="avgPriceToEarningsRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
         <attribute name="bookValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
@@ -35,6 +35,6 @@
         <attribute name="totalLiabilities" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Company" positionX="-63" positionY="-18" width="128" height="525"/>
+        <element name="ManagedCompany" positionX="0" positionY="0" width="0" height="0"/>
     </elements>
 </model>

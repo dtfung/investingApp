@@ -1,14 +1,16 @@
 //
 //  Company.h
-//  projectSnowball
+//  
 //
-//  Created by Donald Fung on 9/19/15.
-//  Copyright © 2015 Donald Fung & Blayne Cameron. All rights reserved.
+//  Created by Donald Fung & Blayne Cameron on 9/19/15.
+//
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
 
-@interface Company : NSObject
+
+@interface ManagedCompany : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * logo;

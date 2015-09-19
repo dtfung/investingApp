@@ -39,6 +39,9 @@
     NSEntityDescription *managedCompany = [NSEntityDescription entityForName:@"Company" inManagedObjectContext:self.appDelegate.managedObjectContext];
     
     //Add Managed Objects Here ...
+    
+    /*NOTE: With NSNumber properties, specify which primitive data type you need before adding elements into an array.  Like this:
+     NSNumber *percentageObject = [NSNumber numberWithFloat:percentage];*/
 }
 
 -(void)loadDataToView {

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
-#import "Company.h"
+#import "ManagedCompany.h"
 
 @interface DAO : NSObject
 
