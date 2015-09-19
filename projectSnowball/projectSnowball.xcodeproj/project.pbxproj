@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63B73351BAE151D00E10D30 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = F63B73341BAE151D00E10D30 /* DAO.m */; settings = {ASSET_TAGS = (); }; };
 		F696F1DE1BAD786E005724DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1DD1BAD786E005724DD /* main.m */; };
 		F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E01BAD786E005724DD /* AppDelegate.m */; };
 		F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E21BAD786E005724DD /* projectSnowball.xcdatamodeld */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F63B73331BAE151D00E10D30 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		F63B73341BAE151D00E10D30 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
 		F696F1D81BAD786E005724DD /* projectSnowball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectSnowball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F696F1DC1BAD786E005724DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F696F1DD1BAD786E005724DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
@@ -88,6 +91,8 @@
 			children = (
 				F696F1DF1BAD786E005724DD /* AppDelegate.h */,
 				F696F1E01BAD786E005724DD /* AppDelegate.m */,
+				F63B73331BAE151D00E10D30 /* DAO.h */,
+				F63B73341BAE151D00E10D30 /* DAO.m */,
 				F696F2041BAE051C005724DD /* Company.h */,
 				F696F2051BAE051C005724DD /* Company.m */,
 				F696F1E51BAD786E005724DD /* ViewController.h */,
@@ -171,7 +176,7 @@
 		F696F1D01BAD786E005724DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Donald Fung & Blayne Cameron";
 				TargetAttributes = {
 					F696F1D71BAD786E005724DD = {
@@ -227,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63B73351BAE151D00E10D30 /* DAO.m in Sources */,
 				F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */,
 				F696F2061BAE051C005724DD /* Company.m in Sources */,
 				F696F1DE1BAD786E005724DD /* main.m in Sources */,
@@ -294,6 +300,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -359,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectSnowball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -369,6 +377,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectSnowball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -387,6 +396,7 @@
 				);
 				INFOPLIST_FILE = projectSnowballTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectSnowball.app/projectSnowball";
 			};
@@ -402,6 +412,7 @@
 				);
 				INFOPLIST_FILE = projectSnowballTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectSnowball.app/projectSnowball";
 			};
@@ -426,6 +437,7 @@
 				F696F2001BAD786E005724DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F696F2011BAD786E005724DD /* Build configuration list for PBXNativeTarget "projectSnowballTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +446,7 @@
 				F696F2031BAD786E005724DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
