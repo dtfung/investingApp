@@ -1,1 +1,1 @@
-# investingApp
+# project Snowball
