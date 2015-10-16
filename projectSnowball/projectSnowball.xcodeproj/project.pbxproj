@@ -12,7 +12,7 @@
 		F696F1DE1BAD786E005724DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1DD1BAD786E005724DD /* main.m */; };
 		F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E01BAD786E005724DD /* AppDelegate.m */; };
 		F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E21BAD786E005724DD /* projectSnowball.xcdatamodeld */; };
-		F696F1E71BAD786E005724DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E61BAD786E005724DD /* ViewController.m */; };
+		F696F1E71BAD786E005724DD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E61BAD786E005724DD /* MainViewController.m */; };
 		F696F1EA1BAD786E005724DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F696F1E81BAD786E005724DD /* Main.storyboard */; };
 		F696F1EC1BAD786E005724DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F696F1EB1BAD786E005724DD /* Images.xcassets */; };
 		F696F1EF1BAD786E005724DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696F1ED1BAD786E005724DD /* LaunchScreen.xib */; };
@@ -41,8 +41,8 @@
 		F696F1DF1BAD786E005724DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F696F1E01BAD786E005724DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F696F1E31BAD786E005724DD /* projectSnowball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projectSnowball.xcdatamodel; sourceTree = "<group>"; };
-		F696F1E51BAD786E005724DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F696F1E61BAD786E005724DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F696F1E51BAD786E005724DD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F696F1E61BAD786E005724DD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F696F1E91BAD786E005724DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F696F1EB1BAD786E005724DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F696F1EE1BAD786E005724DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 				F696F2051BAE051C005724DD /* ManagedCompany.m */,
 				F63B73361BAE1CD300E10D30 /* Company.h */,
 				F63B73371BAE1CD300E10D30 /* Company.m */,
-				F696F1E51BAD786E005724DD /* ViewController.h */,
-				F696F1E61BAD786E005724DD /* ViewController.m */,
+				F696F1E51BAD786E005724DD /* MainViewController.h */,
+				F696F1E61BAD786E005724DD /* MainViewController.m */,
 				F696F1E81BAD786E005724DD /* Main.storyboard */,
 				F696F1EB1BAD786E005724DD /* Images.xcassets */,
 				F696F1ED1BAD786E005724DD /* LaunchScreen.xib */,
@@ -241,7 +241,7 @@
 				F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */,
 				F696F2061BAE051C005724DD /* ManagedCompany.m in Sources */,
 				F696F1DE1BAD786E005724DD /* main.m in Sources */,
-				F696F1E71BAD786E005724DD /* ViewController.m in Sources */,
+				F696F1E71BAD786E005724DD /* MainViewController.m in Sources */,
 				F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */,
 				F63B73381BAE1CD300E10D30 /* Company.m in Sources */,
 			);

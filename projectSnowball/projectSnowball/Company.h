@@ -10,9 +10,9 @@
 
 @interface Company : NSObject
 
+@property (nonatomic, retain) NSString * ticker;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * logo;
-@property (nonatomic, retain) NSString * ticker;
 @property (nonatomic, retain) NSString * industry;
 @property (nonatomic, retain) NSNumber * stockPrice;
 @property (nonatomic, retain) NSNumber * revenues;
