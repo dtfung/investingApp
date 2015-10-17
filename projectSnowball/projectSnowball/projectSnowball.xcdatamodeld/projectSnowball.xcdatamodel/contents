@@ -1,4 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="ManagedCompany" representedClassName="ManagedCompany" syncable="YES">
+        <attribute name="avgEarningsPerShare" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="avgPriceToEarningsRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bookValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="bookValuePerShare" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cashAndCashEquivalents" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currentAssets" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currentLiabilities" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="currentRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="debtToCaptialRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="dividends" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="earningsPerShare" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="goodwill" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="industry" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="intangibleAssets" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="inventory" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="logo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longTermDebt" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="netCurrentAssetValuePerShare" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="netIncome" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="otherLongTermLiabilities" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pegRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceToBookRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="priceToEarningsRatio" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="retainedEarnings" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="revenues" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="shareholdersEquity" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sharesOutstanding" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="stockPrice" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ticker" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalAssets" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="totalLiabilities" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ManagedCompany" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
 </model>

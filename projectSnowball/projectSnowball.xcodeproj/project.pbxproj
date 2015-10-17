@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63B73351BAE151D00E10D30 /* DAO.m in Sources */ = {isa = PBXBuildFile; fileRef = F63B73341BAE151D00E10D30 /* DAO.m */; settings = {ASSET_TAGS = (); }; };
+		F63B73381BAE1CD300E10D30 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = F63B73371BAE1CD300E10D30 /* Company.m */; settings = {ASSET_TAGS = (); }; };
 		F696F1DE1BAD786E005724DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1DD1BAD786E005724DD /* main.m */; };
 		F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E01BAD786E005724DD /* AppDelegate.m */; };
 		F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E21BAD786E005724DD /* projectSnowball.xcdatamodeld */; };
-		F696F1E71BAD786E005724DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E61BAD786E005724DD /* ViewController.m */; };
+		F696F1E71BAD786E005724DD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1E61BAD786E005724DD /* MainViewController.m */; };
 		F696F1EA1BAD786E005724DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F696F1E81BAD786E005724DD /* Main.storyboard */; };
 		F696F1EC1BAD786E005724DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F696F1EB1BAD786E005724DD /* Images.xcassets */; };
 		F696F1EF1BAD786E005724DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696F1ED1BAD786E005724DD /* LaunchScreen.xib */; };
 		F696F1FB1BAD786E005724DD /* projectSnowballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1FA1BAD786E005724DD /* projectSnowballTests.m */; };
+		F696F2061BAE051C005724DD /* ManagedCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F2051BAE051C005724DD /* ManagedCompany.m */; };
+		F6D529731BD19BB200274F04 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D529721BD19BB200274F04 /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +32,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F63B73331BAE151D00E10D30 /* DAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAO.h; sourceTree = "<group>"; };
+		F63B73341BAE151D00E10D30 /* DAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAO.m; sourceTree = "<group>"; };
+		F63B73361BAE1CD300E10D30 /* Company.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		F63B73371BAE1CD300E10D30 /* Company.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
 		F696F1D81BAD786E005724DD /* projectSnowball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectSnowball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F696F1DC1BAD786E005724DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F696F1DD1BAD786E005724DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F696F1DF1BAD786E005724DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F696F1E01BAD786E005724DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F696F1DD1BAD786E005724DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F696F1DF1BAD786E005724DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F696F1E01BAD786E005724DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F696F1E31BAD786E005724DD /* projectSnowball.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projectSnowball.xcdatamodel; sourceTree = "<group>"; };
-		F696F1E51BAD786E005724DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F696F1E61BAD786E005724DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F696F1E51BAD786E005724DD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F696F1E61BAD786E005724DD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		F696F1E91BAD786E005724DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F696F1EB1BAD786E005724DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F696F1EE1BAD786E005724DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F696F1F41BAD786E005724DD /* projectSnowballTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectSnowballTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F696F1F91BAD786E005724DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F696F1FA1BAD786E005724DD /* projectSnowballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectSnowballTests.m; sourceTree = "<group>"; };
+		F696F1FA1BAD786E005724DD /* projectSnowballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = projectSnowballTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F696F2041BAE051C005724DD /* ManagedCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ManagedCompany.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F696F2051BAE051C005724DD /* ManagedCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ManagedCompany.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F6D529711BD19BB200274F04 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		F6D529721BD19BB200274F04 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +97,16 @@
 			children = (
 				F696F1DF1BAD786E005724DD /* AppDelegate.h */,
 				F696F1E01BAD786E005724DD /* AppDelegate.m */,
-				F696F1E51BAD786E005724DD /* ViewController.h */,
-				F696F1E61BAD786E005724DD /* ViewController.m */,
+				F63B73331BAE151D00E10D30 /* DAO.h */,
+				F63B73341BAE151D00E10D30 /* DAO.m */,
+				F696F2041BAE051C005724DD /* ManagedCompany.h */,
+				F696F2051BAE051C005724DD /* ManagedCompany.m */,
+				F63B73361BAE1CD300E10D30 /* Company.h */,
+				F63B73371BAE1CD300E10D30 /* Company.m */,
+				F696F1E51BAD786E005724DD /* MainViewController.h */,
+				F696F1E61BAD786E005724DD /* MainViewController.m */,
+				F6D529711BD19BB200274F04 /* SearchViewController.h */,
+				F6D529721BD19BB200274F04 /* SearchViewController.m */,
 				F696F1E81BAD786E005724DD /* Main.storyboard */,
 				F696F1EB1BAD786E005724DD /* Images.xcassets */,
 				F696F1ED1BAD786E005724DD /* LaunchScreen.xib */,
@@ -166,8 +186,8 @@
 		F696F1D01BAD786E005724DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "Donald Fung";
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Donald Fung & Blayne Cameron";
 				TargetAttributes = {
 					F696F1D71BAD786E005724DD = {
 						CreatedOnToolsVersion = 6.4;
@@ -222,10 +242,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63B73351BAE151D00E10D30 /* DAO.m in Sources */,
 				F696F1E11BAD786E005724DD /* AppDelegate.m in Sources */,
+				F696F2061BAE051C005724DD /* ManagedCompany.m in Sources */,
 				F696F1DE1BAD786E005724DD /* main.m in Sources */,
-				F696F1E71BAD786E005724DD /* ViewController.m in Sources */,
+				F696F1E71BAD786E005724DD /* MainViewController.m in Sources */,
 				F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */,
+				F6D529731BD19BB200274F04 /* SearchViewController.m in Sources */,
+				F63B73381BAE1CD300E10D30 /* Company.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -353,6 +378,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectSnowball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -363,6 +389,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = projectSnowball/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -381,6 +408,7 @@
 				);
 				INFOPLIST_FILE = projectSnowballTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectSnowball.app/projectSnowball";
 			};
@@ -396,6 +424,7 @@
 				);
 				INFOPLIST_FILE = projectSnowballTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.donaldFung.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/projectSnowball.app/projectSnowball";
 			};
@@ -420,6 +449,7 @@
 				F696F2001BAD786E005724DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F696F2011BAD786E005724DD /* Build configuration list for PBXNativeTarget "projectSnowballTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +458,7 @@
 				F696F2031BAD786E005724DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
