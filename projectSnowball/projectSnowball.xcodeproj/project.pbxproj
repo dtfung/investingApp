@@ -18,6 +18,7 @@
 		F696F1EF1BAD786E005724DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F696F1ED1BAD786E005724DD /* LaunchScreen.xib */; };
 		F696F1FB1BAD786E005724DD /* projectSnowballTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F1FA1BAD786E005724DD /* projectSnowballTests.m */; };
 		F696F2061BAE051C005724DD /* ManagedCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = F696F2051BAE051C005724DD /* ManagedCompany.m */; };
+		F6D529731BD19BB200274F04 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D529721BD19BB200274F04 /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F696F1FA1BAD786E005724DD /* projectSnowballTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = projectSnowballTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F696F2041BAE051C005724DD /* ManagedCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ManagedCompany.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F696F2051BAE051C005724DD /* ManagedCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ManagedCompany.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F6D529711BD19BB200274F04 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		F6D529721BD19BB200274F04 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				F63B73371BAE1CD300E10D30 /* Company.m */,
 				F696F1E51BAD786E005724DD /* MainViewController.h */,
 				F696F1E61BAD786E005724DD /* MainViewController.m */,
+				F6D529711BD19BB200274F04 /* SearchViewController.h */,
+				F6D529721BD19BB200274F04 /* SearchViewController.m */,
 				F696F1E81BAD786E005724DD /* Main.storyboard */,
 				F696F1EB1BAD786E005724DD /* Images.xcassets */,
 				F696F1ED1BAD786E005724DD /* LaunchScreen.xib */,
@@ -243,6 +248,7 @@
 				F696F1DE1BAD786E005724DD /* main.m in Sources */,
 				F696F1E71BAD786E005724DD /* MainViewController.m in Sources */,
 				F696F1E41BAD786E005724DD /* projectSnowball.xcdatamodeld in Sources */,
+				F6D529731BD19BB200274F04 /* SearchViewController.m in Sources */,
 				F63B73381BAE1CD300E10D30 /* Company.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

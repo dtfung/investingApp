@@ -53,7 +53,7 @@ dispatch_queue_t queue;
 }
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
-    
+    [self performSegueWithIdentifier:@"popToSearch" sender:self];
 }
 
 
