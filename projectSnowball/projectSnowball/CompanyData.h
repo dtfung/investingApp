@@ -10,7 +10,7 @@
 #import <CoreData/CoreData.h>
 
 
-@interface ManagedCompany : NSManagedObject
+@interface CompanyData : NSManagedObject
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * logo;

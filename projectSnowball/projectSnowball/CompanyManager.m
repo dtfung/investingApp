@@ -6,21 +6,21 @@
 //  Copyright © 2015 Donald Fung & Blayne Cameron. All rights reserved.
 //
 
-#import "DAO.h"
+#import "CompanyManager.h"
 
-@implementation DAO
+@implementation CompanyManager
 
-+(id)sharedManager {
++(id)companyManager {
     
     // Call Singleton
-    static DAO *sharedManager = nil;
+    static CompanyManager *companyManager = nil;
     @synchronized(self) {
-        if (sharedManager == nil) {
-            sharedManager = [[self alloc]init];
+        if (companyManager == nil) {
+            companyManager = [[self alloc]init];
         }
     }
     
-    return sharedManager;
+    return companyManager;
 }
 
 -(instancetype)init {
@@ -34,7 +34,7 @@
     }
 }
 
--(void)companyData {
+- (void)storedCompanyData {
     
     NSEntityDescription *managedCompany = [NSEntityDescription entityForName:@"Company" inManagedObjectContext:self.appDelegate.managedObjectContext];
     
@@ -44,7 +44,7 @@
      NSNumber *percentageObject = [NSNumber numberWithFloat:percentage];*/
 }
 
--(void)loadDataToView {
+- (void)loadDataToView {
     
     _companyList = [[NSMutableArray alloc]init];
     
@@ -53,7 +53,7 @@
     /*NOTE: Before sending data to other view controllers, create instances of NSObjects from each NSManagedObject*/
 }
 
--(void)saveChanges {
+- (void)saveChanges {
     
     NSError *err = nil;
     BOOL successful = [self.appDelegate.managedObjectContext save:&err];

@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchViewController : UIViewController <UISearchBarDelegate>
+#define dispatch_queue_t queue;
 
-@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
-- (IBAction)cancel:(id)sender;
+@interface SearchViewController : UIViewController <UISearchBarDelegate, NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate>
 
 @end

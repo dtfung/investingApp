@@ -6,10 +6,10 @@
 //
 //
 
-#import "ManagedCompany.h"
+#import "CompanyData.h"
 
 
-@implementation ManagedCompany
+@implementation CompanyData
 
 @dynamic name;
 @dynamic logo;

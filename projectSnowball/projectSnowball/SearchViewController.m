@@ -10,9 +10,14 @@
 
 @interface SearchViewController ()
 
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+- (IBAction)cancel:(id)sender;
+
 @end
 
 @implementation SearchViewController
+
+#pragma mark - View Events
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,6 +34,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - Navigation
+
 - (IBAction)cancel:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
@@ -38,6 +45,9 @@
     //[searchBar setShowsCancelButton:YES animated:YES];
 }
 
+#pragma mark - Search 
+
+    
 
 #pragma mark - Table view data source
 

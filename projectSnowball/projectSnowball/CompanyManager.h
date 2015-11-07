@@ -8,16 +8,16 @@
 
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
-#import "ManagedCompany.h"
+#import "CompanyData.h"
 
-@interface DAO : NSObject
+@interface CompanyManager : NSObject
 
-+(id)sharedManager;
++(id)companyManager;
 
 @property (nonatomic, retain) AppDelegate *appDelegate;
 @property (nonatomic, retain) NSMutableArray *companyList;
 
--(void)companyData;
--(void)loadDataToView;
--(void)saveChanges;
+- (void)storedCompanyData;
+- (void)loadDataToView;
+- (void)saveChanges;
 @end

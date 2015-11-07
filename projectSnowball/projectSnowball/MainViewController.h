@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController <NSURLSessionDelegate, NSURLSessionTaskDelegate, NSURLSessionDataDelegate, NSURLSessionDownloadDelegate, UISearchBarDelegate>
-
-
-@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+@interface MainViewController : UIViewController <UISearchBarDelegate>
 
 @end
 

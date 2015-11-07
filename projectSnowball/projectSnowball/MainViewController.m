@@ -10,15 +10,16 @@
 
 @interface MainViewController ()
 
+@property (strong, nonatomic) IBOutlet UISearchBar *searchBar;
+
 @end
 
 @implementation MainViewController
 
-dispatch_queue_t queue;
+#pragma mark - View Events
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self sendHTTPGet];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -27,34 +28,17 @@ dispatch_queue_t queue;
     // Dispose of any resources that can be recreated.
 }
 
-- (void)sendHTTPGet {
-    
-    
-    queue = dispatch_queue_create("aSeparateQueue", nil);
+#pragma mark - Table View
 
-    NSURLSessionConfiguration *defaultConfigObject = [NSURLSessionConfiguration defaultSessionConfiguration];
-    NSURLSession *defaultSession = [NSURLSession sessionWithConfiguration: defaultConfigObject delegate: self delegateQueue: [NSOperationQueue mainQueue]];
-    
-    NSURL * url = [NSURL URLWithString:@"https://www.quandl.com/api/v3/datasets/SF1/CVX_.csv?auth_token=WwW43m43TPc8zhAwMydz"];
-    
-    
-    
-    NSURLSessionDataTask * dataTask = [defaultSession dataTaskWithURL:url
-                                                    completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-                                                        if(error == nil)
-                                                        {
-                                                            NSString * text = [[NSString alloc] initWithData: data encoding: NSUTF8StringEncoding];
-                                                            NSLog(@"Data = %@",text);
-                                                        }
-                                                        
-                                                    }];
-    
-    [dataTask resume];
-}
+    // work with the Company properties. 
+
+#pragma mark - Navigation
 
 - (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
     [self performSegueWithIdentifier:@"popToSearch" sender:self];
 }
+
+
 
 
 @end
