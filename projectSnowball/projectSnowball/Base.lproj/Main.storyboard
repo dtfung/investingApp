@@ -59,8 +59,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <searchBar contentMode="redraw" misplaced="YES" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="M9l-wa-iwM">
-                                <rect key="frame" x="20" y="20" width="471" height="44"/>
+                            <searchBar contentMode="redraw" searchBarStyle="minimal" translatesAutoresizingMaskIntoConstraints="NO" id="M9l-wa-iwM">
+                                <rect key="frame" x="20" y="20" width="478" height="44"/>
                                 <animations/>
                                 <color key="barTintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <textInputTraits key="textInputTraits" keyboardAppearance="light"/>
@@ -68,8 +68,8 @@
                                     <outlet property="delegate" destination="XYW-2k-6oH" id="Tre-2j-bSc"/>
                                 </connections>
                             </searchBar>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbU-6L-AGB">
-                                <rect key="frame" x="520" y="27" width="55" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JbU-6L-AGB">
+                                <rect key="frame" x="527" y="27" width="48" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -100,6 +100,7 @@
                         <outlet property="searchBar" destination="M9l-wa-iwM" id="bTu-Cj-GgL"/>
                         <outlet property="searchDisplayController" destination="Ocb-Xk-Ggg" id="jGf-ud-WII"/>
                         <outlet property="view" destination="J4b-4x-8ru" id="bOw-6s-hf6"/>
+                        <segue destination="Fap-cR-gII" kind="show" identifier="showCompanyDetailView" id="ntJ-vV-YOX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ytD-4h-Mz2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -113,6 +114,25 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="1042" y="-73"/>
+        </scene>
+        <!--Company Detail View Controller-->
+        <scene sceneID="nGU-dO-b25">
+            <objects>
+                <viewController id="Fap-cR-gII" customClass="CompanyDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7T2-xJ-EfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="dIC-Ir-z2l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WnY-Fk-2KE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="22M-aA-JoT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1759" y="-72"/>
         </scene>
     </scenes>
 </document>
